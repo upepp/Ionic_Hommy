@@ -20,8 +20,10 @@ ion-menu-button{
 }
 a{
     text-align: center;
-    padding: 15px;
-    float:table-row;
+    display: block;
+    font-size: large;
+    padding:15px;
+    color: black;
 }
 .house1{
     border-radius: 100%;
@@ -48,4 +50,14 @@ a{
     margin-left: auto;
     margin-right: auto;
     display:block;
+}
+
+div{
+    border-radius: 30px;
+    border-color: #85AEFF;
+    background-color:#85AEFF;
+    margin: 15px;
+}
+*{
+    font-family: 'Raleway', sans-serif;
 }
