@@ -21,22 +21,22 @@ export class AppComponent implements OnInit {
     {
       title: 'Favorites',
       url: 'favorites',
-      icon: 'heart'
+      icon: 'heart',
     },
     {
       title: 'Login',
       url: '/folder/Archived',
-      icon: 'archive'
+      icon: 'archive',
     },
     {
       title: 'Register',
-      url: '/folder/Trash',
-      icon: 'trash'
+      url: '/register',
+      icon: 'trash',
     },
     {
       title: 'Announce Here',
       url: '/folder/Announce',
-      icon: 'warning'
+      icon: 'warning',
     },
     
   ];

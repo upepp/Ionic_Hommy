@@ -22,6 +22,10 @@ const routes: Routes = [
   {
     path: 'republic-page',
     loadChildren: () => import('./republic-page/republic-page.module').then( m => m.RepublicPagePageModule)
+  },
+  {
+    path: 'register',
+    loadChildren: () => import('./register/register.module').then( m => m.RegisterPageModule)
   }
 ];
 
