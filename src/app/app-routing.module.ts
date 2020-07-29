@@ -18,6 +18,10 @@ const routes: Routes = [
   {
     path: 'favorites',
     loadChildren: () => import('./favorites/favorites.module').then( m => m.FavoritesPageModule)
+  },
+  {
+    path: 'republic-page',
+    loadChildren: () => import('./republic-page/republic-page.module').then( m => m.RepublicPagePageModule)
   }
 ];
 

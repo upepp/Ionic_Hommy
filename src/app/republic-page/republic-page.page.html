@@ -1,0 +1,33 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Página da República</ion-title>
+    <ion-icon class="icon" name="chevron-back-outline" routerLink="/hommy-republic"></ion-icon>
+  </ion-toolbar>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+  </style>  
+</ion-header>
+
+<ion-content>
+  <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQFN-Tof_xHJmPqqdr1BClZRhBJTAh7QHFlNA&usqp=CAU' height=140 width=140 alt="img" class='house' >
+  <ion-fab vertical="top" horizontal="end" >
+    <ion-fab-button>
+      <ion-icon   name="chatbubble-ellipses-outline" ></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>{{dormitory.name}}</ion-card-title>
+      <ion-card-subtitle>{{dormitory.location}}</ion-card-subtitle>
+      <ion-card-content>
+        {{dormitory.obs}}
+      </ion-card-content>
+    </ion-card-header>
+  </ion-card>  
+  <ion-card class=ioncard2>
+    <div>{{dormitory.number_of_avaliable_dorms}} quartos disponíveis</div>
+    <div>{{dormitory.total_dorms}} quartos, {{dormitory.bathrooms}} banheiros, {{dormitory.kitchen}} cozinha e {{dormitory.garage_space}} espaço para carro.</div>
+    <div> Preço total: {{dormitory.price}} reais.</div>
+  </ion-card>
+
+</ion-content>
